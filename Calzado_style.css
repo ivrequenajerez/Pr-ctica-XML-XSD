@@ -1,0 +1,24 @@
+body {
+	margin: 0 auto;
+	width: 1000px;
+	height: 680px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+img{
+  width: 50;
+  height: 50;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

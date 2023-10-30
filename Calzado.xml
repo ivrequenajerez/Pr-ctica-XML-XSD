@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Calzado_XSLT.xsl"?> 
+<Calzado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+
+  <factura dni="00000000T">
+
+    <zapato proveedor="Zara" para="Hombre">
+      <marca>ECCO</marca>
+      <titulo>Zapato de cuero</titulo>
+      <tipo>Tacón</tipo>
+      <material>Cuero</material>
+      <talla>40</talla>
+      <plantilla>Goma</plantilla>
+      <precio>100</precio>
+      <observaciones></observaciones>
+    </zapato>
+    
+    <formulario dni="00000000T">
+      <nombre>Enrique</nombre>
+      <apellido>Martín Fernandez</apellido>
+      <email>EnriqueMartin@gmail.com</email>
+      <telefono>123456789</telefono>
+      <telefono_fijo>987654321</telefono_fijo>
+      <fecha_nac>1995-02-15</fecha_nac>
+      <sexo>Hombre</sexo>
+      <observaciones>Es un regalo para su pareja</observaciones>
+    </formulario>
+    
+    <envio por="Correos"/>
+    
+  </factura>
+  
+  <factura dni="00000000T">
+
+    <zapato proveedor="Zara" para="hombre">
+      <marca>Adidas</marca>
+      <titulo>Deportiva Mercury</titulo>
+      <tipo>Deportiva</tipo>
+      <material>Goma antideslizante</material>
+      <talla>35</talla>
+      <plantilla>Goma anatómica</plantilla>
+      <precio>120</precio>
+      <observaciones>Sin tacos</observaciones>
+    </zapato>
+    
+    <formulario dni="00000000T">
+      <nombre>Maria Jose</nombre>
+      <apellido>Cruces Morilla</apellido>
+      <email>MorillaCruces@gmail.com</email>
+      <telefono>664555555</telefono>
+      <telefono_fijo>901222222</telefono_fijo>
+      <fecha_nac>1990-01-17</fecha_nac>
+      <sexo>Mujer</sexo>
+      <observaciones>Compra conjunta con Jose</observaciones>
+    </formulario>
+    
+    <envio por="Correos"/>
+    
+  </factura>
+  
+
+
+</Calzado>
